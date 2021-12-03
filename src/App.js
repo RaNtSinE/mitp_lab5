@@ -7,7 +7,7 @@ class App extends React.Component{
     constructor(props) {
         super(props);
         this.state = {
-            focus: "",
+            focus: null,
             selected: null
         }
 
